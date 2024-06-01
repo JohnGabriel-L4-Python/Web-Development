@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novatech Appliances</title>
+    <link rel="stylesheet" href="assessment.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Sedan+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <h2>Nova Tech</h2>
+            </div>
+            <ul class="nav-items">
+                <li><a href="assessment.html">HOME</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">APPLIANCES</a>
+                    <div class="dropdown-content"> 
+                        <a href="kitchen.html">KITCHEN TOOLS AND APPLIANCES</a>
+                        <a href="laundry.html">HOME CLEANING</a>
+                    </div>
+                </li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="buypage.html" class="cart-link"><img src="cart.jpg" alt="cart"></a></li>
+            </ul>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="products"><br><br>
+        <h1>HOME CLEANING</h1><br><br><br><br><br>
+        <div class="box">
+            <img src="roomba.png" alt="Product 1">
+            <h3>Roomba9000</h3>
+            <p>price: $899.99 </p><br><span class = "desc">
+                The Roomba9000 is your cleaning companion, effortlessly sweeping floors with precision. Smart sensors navigate around obstacles for a thorough clean, while you enjoy a sparkling home with minimal effort.</span> <br><br><br><br><br><br>
+            <button class="add-to-cart" id="purchasebtn" data-product="Roomba9000" data-price="899.99">Add to Cart</button><br>
+        </div>
+        <div class="box">
+            <img src="vacuum.png" alt="Product 2">
+            <h3>AirSucker</h3>
+            <p>price: $379</p><br><span class="desc">
+                The AirSucker is your powerful solution against dust and allergens. With exceptional suction power and advanced filtration, it ensures cleaner air and floors with ease.</span><br><br><br><br><br><br><br>
+            <button class="add-to-cart" id="purchasebtn" data-product="AirSucker" data-price="379">Add to Cart</button>
+        </div>
+        <div class="box">
+            <img src="dishwasher.png" alt="Product 3">
+            <h3>eyeWater Dishwash Max</h3>
+            <p>price: $679.99</p><br>
+            <span class="desc">Say goodbye to scrubbing with eyeWater, your smart dishwasher. Its intuitive controls and customizable cycles deliver spotless dishes effortlessly, streamlining your kitchen routine.</span><br><br><br><br><br><br><br>
+            <button class="add-to-cart" id="purchasebtn" data-product="eyeWater Dishwash Max"  data-price="679.99">Add to Cart</button>
+        </div>
+        
+        <div class="box">
+            <img src="washer.png" alt="Product 4">
+            <h3>WashingMachine Water Pro</h3>
+            <p>price: $409.99</p><br><span class="desc">
+                Experience the future of laundry with Washing Machine Water Pro. This advanced machine offers superior cleaning while conserving water and energy, giving you more time for what matters.
+            </span><br><br><br><br><br>
+            <button class="add-to-cart" id="purchasebtn" data-product="WashingMachine Water Pro" data-price="409.99">Add to Cart</button><br><br><br><br>
+        </div>
+    </section>
+
+    <script src="assessment.js"></script>
+    
+    <footer>
+        &copy; 2024 Novatech Appliances. <br>A Web Development Project Made by: John Gabriel R. Abitria
+    </footer>
+</body>
+</html>

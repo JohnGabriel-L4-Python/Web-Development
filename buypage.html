@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novatech Appliances</title>
+    <link rel="stylesheet" href="assessment.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Sedan+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <h2>Nova Tech</h2>
+            </div>
+            <ul class="nav-items">
+                <li><a href="assessment.html">HOME</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">APPLIANCES</a>
+                    <div class="dropdown-content"> 
+                        <a href="kitchen.html">KITCHEN TOOLS AND APPLIANCES</a>
+                        <a href="laundry.html">HOME CLEANING</a>
+                    </div>
+                </li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="buypage.html" class="cart-link"><img src="cart.jpg" alt="cart"></a></li>
+            </ul>
+            </ul>
+        </nav>
+    </section>
+    <br><br><br>
+<div class="big-box">
+    <section class="shoppingcart" id="cart">
+            <h2>Cart</h2>
+            <div class="cart-list">
+               <p>No items in Cart               No items in cart</p>
+            </div> <br><br>
+            <div class="cart-total">
+            <center><p>Total: $<span id="total">0</span></p></center>
+            </div>
+            </section>
+
+                <br><br><br>
+
+    <section class= "checkout" id="checkout">
+        <center><h2>Checkout</h2></center>
+        <form>
+            
+            <label for="name">NAME:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="address">ADDRESS:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="email">EMAIL (optional):</label>
+            <input type="text" id="Email" name="Email">
+
+            <center><input type = "checkbox" name = "accept" value = "on"> I would like to recieve news, emails, and offers.</center>
+            
+            <button type="submit" id="place-order">PLACE ORDER</button>
+        </form>
+        </section>
+    <script src="assessment.js"></script>
+
+    </div>
+    <footer>
+        &copy; 2024 Novatech Appliances. <br>A Web Development Project Made by: John Gabriel R. Abitria
+    </footer>
+</body>
+</html>
